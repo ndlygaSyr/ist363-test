@@ -1,3 +1,6 @@
+body {
+    background-color: #e4e4e4;
+}
 .header {
     height: 60px;
     line-height: 60px;
@@ -34,7 +37,7 @@ h1 {
 
 .main {
     display: flex;
-    
+
 }
 
 .content {
@@ -49,4 +52,22 @@ h1 {
     background-color: #333;
     color: white;
     padding: 20px;
+}
+
+.blog-post {
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #999999;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.blog-post-img {
+    float: left;
+    margin: 20px;
 }
